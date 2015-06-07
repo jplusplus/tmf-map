@@ -13,13 +13,21 @@
     <!-- run `gulp inject` to automatically populate bower styles dependencies -->
     <!-- endbower -->
     <!-- endbuild -->
+
+    <!--
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.14/themes/css/cartodb.css" />
+    -->
 
     <!-- build:css({.tmp/serve,src}) styles/app.css -->
     <!-- inject:css -->
     <!-- css files will be automatically insert here -->
     <!-- endinject -->
     <!-- endbuild -->
+
+    <script type="text/javascript">
+      var href = document.location.protocol + "//" + document.location.host + document.location.pathname;
+      document.write("<base href='" + href + "' />");
+    </script>
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -37,7 +45,10 @@
     <!-- inject:js -->
     <!-- js files will be automatically insert here -->
     <!-- endinject -->
+
+    <!--
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.14/cartodb.js"></script>
+    -->
 
     <!-- inject:partials -->
     <!-- angular templates will be automatically converted in js and inserted here -->
