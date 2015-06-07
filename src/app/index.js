@@ -1,3 +1,9 @@
 'use strict';
 
-angular.module('tmfMap', ['ngAnimate', 'ngTouch', 'ngSanitize']);
+angular.module('tmfMap', [
+  'ngAnimate',
+  'ngTouch',
+  'ngSanitize',
+  'ngCookies',
+  'pascalprecht.translate'
+]);
