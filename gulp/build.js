@@ -89,7 +89,7 @@ module.exports = function(options) {
 
 
   gulp.task('deploy', ['build'], function() {
-    return gulp.src("./dist/**/*").pipe($.ghPages({
+    return gulp.src(options.dist + '/**/*').pipe($.ghPages({
       remoteUrl: "git@github.com:jplusplus/tmf-map.git"
     }));
   });
