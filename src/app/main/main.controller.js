@@ -13,9 +13,8 @@ angular.module('tmfMap')
     });
     // The map had been loaded
     $scope.$on('map:loaded', function(ev, params) {
-      var viz, layers;
       // Extract map params
-      [viz, layers] = params;
+      var viz = params[0], layers = params[1];
       // Disbale default behavior by removing infowindow
       layers[1].getSubLayer(0).infowindow.clear();
     });
