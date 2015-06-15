@@ -23,6 +23,10 @@ angular.module('tmfMap')
       'pl_PL': {
         APP_TITLE: 'The Migrants\' Files - PL',
         INFOWINDOW_CONTENT: '{{deaths}} uchodźców i imigrantów zginęło w tym miejscu między 2000 rokiem a 18 czerwca 2025 roku.'
+      },
+      'bg_BG': {
+        APP_TITLE: 'The Migrants\' Files - BG',
+        INFOWINDOW_CONTENT: '{{deaths}} Бежанци или мигранти, починали на това място в периода между 2000 г. и 18 юни 2015 г.'
       }
     }
   });
