@@ -27,6 +27,10 @@ angular.module('tmfMap')
       'bg_BG': {
         APP_TITLE: 'The Migrants\' Files - BG',
         INFOWINDOW_CONTENT: '{{deaths}} Бежанци или мигранти, починали на това място в периода между 2000 г. и 18 юни 2015 г.'
+      },
+      'dk_DK': {
+        APP_TITLE: 'The Migrants\' Files - DK',
+        INFOWINDOW_CONTENT: '{{ deaths }} flygtninge og migranter omkom her i perioden 2000 - 18. juni 2015.'
       }
     }
   });
