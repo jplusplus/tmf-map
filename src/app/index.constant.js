@@ -22,7 +22,7 @@ angular.module('tmfMap')
       },
       'pl_PL': {
         APP_TITLE: 'The Migrants\' Files - PL',
-        INFOWINDOW_CONTENT: '{{deaths}} uchodźców i imigrantów zginęło w tym miejscu między 2000 rokiem a 18 czerwca 2025 roku.'
+        INFOWINDOW_CONTENT: '{{deaths}} uchodźców i imigrantów zginęło w tym miejscu między 2000 rokiem a 18 czerwca 2015 roku.'
       },
       'bg_BG': {
         APP_TITLE: 'The Migrants\' Files - BG',
