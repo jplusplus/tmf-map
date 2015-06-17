@@ -6,7 +6,7 @@ angular.module('tmfMap')
     languages: {
       'en_US': {
         APP_TITLE: 'The Migrants\' Files - EN',
-        INFOWINDOW_CONTENT: '{{ deaths }} refugees and migrants died at this location between 2000 and June 18,2015.'
+        INFOWINDOW_CONTENT: '{{ deaths }} refugees and migrants died at this location between 2000 and June 18, 2015.'
       },
       'fr_FR': {
         APP_TITLE: 'The Migrants\' Files - FR',
